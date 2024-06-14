@@ -1,14 +1,16 @@
-cd
-ls
-mkdir
-rm
-mv
-pwd
-git init
-git add .
-git add <file name>
-git commit -m "<message>"
-git checkout <branch name>
-git log
-git log --all
-git log --oneline -all --graph
+cd = change dir
+ls = list dir/files
+mkdir = create dir
+rm = remove 
+mv = move/ used to remove or rename
+pwd = present working dir
+git init = initialize git
+git add . = stage all changes/ or track all changes
+git add <file name> = stage a particular file/ or track a file
+git commit -m "<message>" = to commit 
+git checkout <branch name> = switch between branches of a git repository
+git log = lists all commits of a branch
+git log --all = lists all commits of whole repository  
+git log --oneline -all --graph = shows all commits in the repository each in single line, graph shows a basic graph of the git branches
+
+
