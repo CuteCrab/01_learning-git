@@ -1,0 +1,14 @@
+cd
+ls
+mkdir
+rm
+mv
+pwd
+git init
+git add .
+git add <file name>
+git commit -m "<message>"
+git checkout <branch name>
+git log
+git log --all
+git log --oneline -all --graph
