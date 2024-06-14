@@ -12,5 +12,7 @@ git checkout <branch name> = switch between branches of a git repository
 git log = lists all commits of a branch
 git log --all = lists all commits of whole repository  
 git log --oneline -all --graph = shows all commits in the repository each in single line, graph shows a basic graph of the git branches
+git branch --delete <branch name> = deletes a branch / you need to be on other branch than the one you are deleting
+git branch -D <branch name> 
 
 
