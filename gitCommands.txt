@@ -19,4 +19,4 @@ git merge <branch name> = merges branch to the current branch we are on
 
 git remote show origin = to check if connected to online repository
 git branch -M main = renames the current branch to Main (to be used for master branch)
-git push -u origin main
+git push -u origin main = it push the main branch to online repository
