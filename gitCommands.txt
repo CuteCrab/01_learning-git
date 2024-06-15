@@ -14,9 +14,12 @@ git log --all = lists all commits of whole repository
 git log --oneline -all --graph = shows all commits in the repository each in single line, graph shows a basic graph of the git branches
 git branch <branch name> = to make a branch
 git branch --delete <branch name> = deletes a branch / you need to be on other branch than the one you are deleting
-git branch -D <branch name> 
+git branch -D <branch name> = deletes branch even if you are on the same branch
 git merge <branch name> = merges branch to the current branch we are on
 
 git remote show origin = to check if connected to online repository
 git branch -M main = renames the current branch to Main (to be used for master branch)
 git push -u origin main = it push the main branch to online repository
+
+git fetch = brings the latest commits/changes from online repo to local repo
+git pull = brings the latest changes/commits from online repo to local repo and merges it to the local main
