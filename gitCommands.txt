@@ -17,3 +17,6 @@ git branch --delete <branch name> = deletes a branch / you need to be on other b
 git branch -D <branch name> 
 git merge <branch name> = merges branch to the current branch we are on
 
+git remote show origin = to check if connected to online repository
+git branch -M main = renames the current branch to Main (to be used for master branch)
+git push -u origin main
